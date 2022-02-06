@@ -1,0 +1,35 @@
+.tab-menu {
+  background: $blue;
+}
+
+.tab-menu__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.tab-menu__item {
+  @extend %text--24;
+
+  padding: rem(24) 0;
+  border-bottom: 5px solid transparent;
+  text-align: center;
+  color: $darkBlue;
+  cursor: pointer;
+}
+
+.tab-menu__link {
+  padding: rem(22);
+  border-bottom: 5px solid transparent;
+  color: $darkBlue;
+  text-decoration: none;
+
+  &.is-active {
+    border-bottom-color: $darkBlue;
+    color: $white;
+  }
+
+  @include media('below-mobile') {
+    padding: rem(24) rem(10);
+    font-size: 4.5vw;
+  }
+}

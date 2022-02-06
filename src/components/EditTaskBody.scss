@@ -1,0 +1,96 @@
+.edit-body {
+  margin-top: -3px;
+  border-radius: 0 0 5px 5px;
+  background-color: $gray-lighter;
+}
+
+.edit-body__content {
+  padding: rem(24) rem(50);
+  border-top: 2px solid $gray;
+}
+
+.edit-body__label {
+  @extend %heading--20;
+
+  display: block;
+  margin-bottom: rem(8);
+
+  &::before {
+    @extend %font-awesome;
+
+    display: inline-block;
+    width: rem(20);
+    margin-right: rem(5);
+  }
+
+  &[for=deadline]::before {
+    content: "\f073";
+  }
+
+  &[for=comment]::before {
+    content: "\f4ad";
+  }
+}
+
+.edit-body__field {
+  &:not(:last-of-type) {
+    margin-bottom: rem(20);
+  }
+
+  input[name="date"],
+  input[name="time"],
+  textarea[name="comment"] {
+    background-color: $white;
+  }
+
+  input[name="date"] {
+    margin-right: rem(10);
+    padding: rem(5) rem(10);
+  }
+
+  input[name="time"] {
+    padding: rem(5) rem(10);
+  }
+
+  textarea[name="comment"] {
+    width: 90%;
+    padding: rem(15);
+  }
+
+  .edit-body__input-wrapper,
+  textarea[name="comment"] {
+    margin-left: rem(25);
+  }
+}
+
+.edit-body__btns {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.edit-body__btn {
+  @extend %text--24;
+
+  padding: rem(18);
+  text-align: center;
+}
+
+.edit-body__btn--cancel {
+  border-bottom-left-radius: 5px;
+  background-color: $white;
+  color: $red;
+
+  &:hover {
+    background-color: $red-lighter;
+  }
+}
+
+.edit-body__btn--add {
+  border-bottom-right-radius: 5px;
+  background-color: $blue;
+  color: $white;
+
+  &:hover {
+    background-color: $hoverBlue;
+  }
+}
