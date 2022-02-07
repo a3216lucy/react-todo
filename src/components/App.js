@@ -7,16 +7,16 @@ import GithubBanner from './GithubBanner';
 const App = () => {
   const routes = [
     {
-      path: '/',
+      path: '%PUBLIC_URL%/',
       exact: true,
       component: TabContent,
     },
     {
-      path: '/progress',
+      path: '%PUBLIC_URL%/progress',
       component: TabContent,
     },
     {
-      path: '/completed',
+      path: '%PUBLIC_URL%/completed',
       component: TabContent,
     },
   ];
