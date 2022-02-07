@@ -2,7 +2,7 @@
   "name": "react-todolist-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/a3216lucy/react-todo/public",
+  "homepage": "https://github.com/a3216lucy/react-todo/public/index.html",
   "dependencies": {
     "node-sass": "^4.12.0",
     "prop-types": "^15.7.2",
