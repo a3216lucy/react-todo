@@ -12,11 +12,11 @@ const App = () => {
       component: TabContent,
     },
     {
-      path: 'react-todo/progress',
+      path: '/react-todo/progress',
       component: TabContent,
     },
     {
-      path: 'react-todo/completed',
+      path: '/react-todo/completed',
       component: TabContent,
     },
   ];
