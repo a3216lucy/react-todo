@@ -7,7 +7,7 @@ import GithubBanner from './GithubBanner';
 const App = () => {
   const routes = [
     {
-      path: 'react-todo/',
+      path: '/',
       exact: true,
       component: TabContent,
     },
