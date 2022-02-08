@@ -1,7 +1,6 @@
 # React ToDoList 
 
 Recently I start to  learn React and develope this sample To-Do List Website in React.<br>
-This web is with three task types, all tasks, in progress and completed.
 
 ## Demo
 
@@ -9,6 +8,14 @@ This web is with three task types, all tasks, in progress and completed.
 
 ![ToDoList Website in React](https://i.imgur.com/gFmXCu2.png)
 _The To-Do list template designed and shared by [Hexschool(六角學院)](https://hexschool.github.io/THE_F2E_Design/todolist/)_
+
+## Function
+
+1. It is able to record daily todo tasks.
+2. It can set the priority of every task. (default status is none)
+3. It is free to change the order of the items by dragging.
+4. Every single task can set time alert and leave comments.
+5. The status of each todo has all tasks, in progress, completed.
 
 ## What I learned from this project
 
