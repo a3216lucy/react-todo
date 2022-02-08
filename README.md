@@ -1,23 +1,22 @@
 # React ToDoList 
 
-Recently I started learning React and develope this sample To-Do List App fully in React.<br>
-This application is with three task types and routes, all todos, in progress and completed.
+Recently I start to  learn React and develope this sample To-Do List Website in React.<br>
+This web is with three task types, all tasks, in progress and completed.
 
 ## Demo
 
-**Live URL:** [https://todolist-app-react.netlify.com/]()
+[**Live URL**](a3216lucy.github.io/react-todo/)
 
-![ToDoList App in React]()
+![ToDoList Website in React](https://i.imgur.com/gFmXCu2.png)
 _The To-Do list template designed and shared by [Hexschool(六角學院)](https://hexschool.github.io/THE_F2E_Design/todolist/)_
 
 ## What I learned from this project
 
-- [x] Handle form in React with uncontrolled & controlled components
+- [x] Store todo items in localStorage
 - [x] Multiple checkbox / toggle state
-- [x] Render along with multiple Routes that match the URL
+- [x] Handle form in React with uncontrolled & controlled components
 - [x] Render each list based on their task status
 - [x] Most important task is at the top of the page
-- [x] Store todo items in localStorage
 - [x] Drag and drop to change order of task items
 
 ## Installation
